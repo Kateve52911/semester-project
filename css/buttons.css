@@ -1,0 +1,79 @@
+.cta-frontpage-readmore, .cta-plan-visit, .cta-exhibitions-readmore-evolutions, .cta-frontpage-explore-exhibitions, .cta-frontpage-community, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology , .cta-exhibitions-readmore-cosmology{
+    padding: 10px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.cta-frontpage-readmore {
+    background-color: var(--colour-green);
+    margin-top: 15%;
+    float: right;
+}
+
+.cta-plan-visit{
+    background-color: var(--colour-orange);
+    color: #fff;
+    padding: 10px 80px;
+}
+
+.cta-exhibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology, .cta-exhibitions-readmore-cosmology {
+    background-color: var(--colour-green);
+    color: #fff;
+    margin: 2% auto;
+    padding: 10px 100px;
+}
+
+.cta-exhibitions-readmore-biology {
+    background-color: var(--colour-orange);
+}
+
+.cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-cosmology {
+    background-color: var(--colour-pink);
+}
+
+.colour-arrow {
+    color: #fff;
+}
+
+.cta-frontpage-explore-exhibitions, .cta-frontpage-community {
+    background-color: var(--colour-pink);
+    color: #fff;
+    margin-left: 10%;
+    padding: 10px 70px;
+}
+
+.cta-frontpage-community {
+    margin-left: 5%;
+}
+
+/* transitions */
+
+.cta-frontpage-readmore, .cta-ehibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-ecology{
+    transition-property: background-colour;
+}
+
+.cta-frontpage-readmore:hover, .cta-exhibitions-readmore-evolutions:hover, .cta-exhibitions-readmore-ecology:hover {
+    background-color: var(--colour-darkgreen);
+}
+
+.cta-exhibitions-readmore-biology:hover {
+    background-color: var(--colour-darkorange);
+}
+
+.cta-frontpage-readmore:active, .cta-exhibitions-readmore-evolutions:active, .cta-exhibitions-readmore-biology:active, .cta-exhibitions-readmore-ecology:active {
+    background-color: #fff;
+    color: var(--colour-darkgreen);
+    border-color: var(--colour-darkgreen);
+}
+
+.cta-exhibitions-readmore-evolutions:active {
+    color: var(--colour-green);
+    border-color: var(--colour-green);
+}
+
+.cta-exhibitions-readmore-biology:active {
+    color: var(--colour-orange);
+    border-color: var(--colour-orange);
+}

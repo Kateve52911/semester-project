@@ -1,0 +1,61 @@
+
+h1 {
+    font-size: 56px;
+    font-family: var(--font-family);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2    {
+    font-family: var(--font-family);
+}
+
+.h2-title, .h2-title-special {
+    font-size: 36px;
+}
+
+.h2-title-special {
+    text-align: center;
+}
+
+.h2-title-explore-exhibitions {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 2%;
+}
+
+.text-exhibitions {
+    margin: 2% 5%;
+}
+.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore  {
+    font-size: large;
+}
+
+nav a {
+    font-family: var(--font-family-treb);
+    font-size: large;
+}
+
+#get-involved-topdiv, .get-involved-fontpage, .cta-frontpage-readmore, .text-aim {
+    color: #fff;
+}
+
+.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2 {
+    font-size: larger;
+}
+
+.text-exhibitions-evolutions2 {
+    padding: 0% 8% 5% 5%;
+
+}
+
+.cosmology-ehibition-text {
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.text-frontpage-involved, .text-aim {
+    font-size: x-large;
+}
