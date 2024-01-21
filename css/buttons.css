@@ -1,9 +1,10 @@
-.cta-frontpage-readmore, .cta-plan-visit, .cta-exhibitions-readmore-evolutions, .cta-frontpage-explore-exhibitions, .cta-frontpage-community, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology , .cta-exhibitions-readmore-cosmology{
+.cta-frontpage-readmore, .cta-plan-visit, .cta-exhibitions-readmore-evolutions, .cta-frontpage-explore-exhibitions, .cta-frontpage-community, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology , .cta-exhibitions-readmore-cosmology, .cta-explore-contact-us{
     padding: 10px 60px;
     border-radius: 10px;
     text-decoration: none;
     justify-content: center;
     font-size: x-large;
+    font-family: var(--font-family);
 }
 
 .cta-frontpage-readmore {
@@ -46,6 +47,11 @@
 
 .cta-frontpage-community {
     margin-left: 5%;
+}
+
+.cta-explore-contact-us {
+    background-color: #fff;
+    color: black;
 }
 
 /* transitions */

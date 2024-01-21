@@ -6,12 +6,16 @@ h1 {
     padding-bottom: 3%;
 }
 
-.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2    {
+.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2, .h4-title, .text-visit  {
     font-family: var(--font-family);
 }
 
 .h2-title, .h2-title-special {
     font-size: 36px;
+}
+
+.h4-title {
+    font-size: 20px;
 }
 
 .h2-title-special {
@@ -28,7 +32,7 @@ h1 {
 .text-exhibitions {
     margin: 2% 5%;
 }
-.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore  {
+.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .text-visit  {
     font-size: large;
 }
 
@@ -41,7 +45,7 @@ nav a {
     color: #fff;
 }
 
-.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2 {
+.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .explore-text {
     font-size: larger;
 }
 
