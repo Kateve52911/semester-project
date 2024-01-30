@@ -11,16 +11,21 @@
 </head>
 <body>
     <header>
-
-        <nav class="header-navigation">
-            <a href="index.html"><img class="header-log" src="images/logo.png" alt="text with different colours spelling out community science center"></a>
-            <a href="exhibitions.html">Exhibitions</a>
-            <a href="special-events.html">Special Events</a>
-            <a href="explore.html">Explore</a>
-            <a href="get-involved.html">Get Involved</a>
-            <a href="visit.html">Visit Us</a>
-        </nav>
-
+        <section class="flex-container-header">
+            <nav>
+              <a href="index.html"><img src="images/logo.png" alt="Community science museum logo" class="logo-header"></a>  
+            </nav>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <nav class="header-links">
+                <a href="index.html" class="h-links">Home</a>
+                <a href="exhibitions.html" class="h-links">Exhibitions</a>
+                <a href="special-events.html" class="h-links">Special Events</a>
+                <a href="explore.html" class="h-links">Explore</a>
+                <a href="get-involved.html" class="h-links">Get Involved</a>
+                <a href="visit.html" class="h-links">Visit</a>
+            </nav>
+        </section>
     </header>
 
     <main>
@@ -70,14 +75,12 @@
                         <p class="explore-text-fontpage"> Come join us at the Community Science Museum where we are committed to making science accessible to all.</p>
                     </div>
                     <div>
-                        <img src="images/library-1132573_1920.jpg" alt="an image of the inside of a museum with class monters and columns" class="inside-museim-image">
+                        <img src="images/library-1132573_1920.jpg" alt="an image of the inside of a museum with class monters and columns" class="inside-museum-image">
                     </div>
                 </section>
 
                 <section class="inside-image frontpage-five">
-                    <div>
                         <img src="images/roberto-nickson-396152.jpg" alt="the inside of a museum with a mammut at the center" class="inside-image-frontpage">
-                    </div>
                     <div class="explore-exhibitions-frontpage">
                         <h2 class="h2-title-explore-exhibitions">Explore our exhibitions</h2>
                         <a href="exhibitions.html" class="cta-frontpage-explore-exhibitions"><i class="fa-solid fa-arrow-right fa-xl colour-arrow"></i></a>
@@ -94,7 +97,6 @@
                             The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
                         </p>
                     </div>
-
                 </section>
                 
         </section>
@@ -104,13 +106,13 @@
     <footer>
         <section class="container-footer">
              <div>
-                 <nav>
-                     <ul>
+                 <nav class="footer-desktop">
+                     <ul class="footer-links">
                          <li><a href="index.html"><img src="images/logo-footer-new.png" alt="communtity science center written with each word having a different colour" class="logo-footer"></a></li>
-                         <li><a href="visit.html">Plan your visit</a></li>
-                         <li><a href="exhibitions.html">Our exhibitions</a></li>
-                         <li><a href="special-events.html">Special events and exhibitions</a></li>
-                         <li><a href="get-involved.html">Get involved</a></li>
+                         <li><a href="visit.html" class="nav-footer footer-nav-mq  footer-1">Plan your visit</a></li>
+                         <li><a href="exhibitions.html" class="nav-footer footer-nav-mq footer-2">Our exhibitions</a></li>
+                         <li><a href="special-events.html" class="nav-footer footer-nav-mq footer-3">Special events and exhibitions</a></li>
+                         <li><a href="get-involved.html" class="nav-footer footer-nav-mq footer-4">Get involved</a></li>
                      </ul> 
                  </nav>
              </div>
@@ -118,8 +120,8 @@
                  <nav>
                      <ul>
                          <li class="sm-links"><a href="visit.html"><img src="images/instagram.png" alt="instagram logo" class="sm-image-footer"></a></li>
-                         <li class="sm-links"><a href="visit.html"><img src="images/instagram.png" alt="instagram logo" class="sm-image-footer"></a></li>
-                         <li class="sm-links"><a href="visit.html"><img src="images/instagram.png" alt="instagram logo" class="sm-image-footer"></a></li>
+                         <li class="sm-links"><a href="visit.html"><img src="images/youtube.png" alt="youtube logo" class="sm-image-footer"></a></li>
+                         <li class="sm-links"><a href="visit.html"><img src="images/facebook.png" alt="facebook logo" class="sm-image-footer"></a></li>
                      </ul>
                  </nav>
              </div>

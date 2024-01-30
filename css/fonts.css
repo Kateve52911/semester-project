@@ -6,7 +6,7 @@ h1 {
     padding-bottom: 3%;
 }
 
-.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2, .h4-title, .text-visit  {
+.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2, .h4-title, .text-visit, .text-get-involed, .explore-text  {
     font-family: var(--font-family);
 }
 
@@ -30,10 +30,10 @@ h1 {
 }
 
 .text-exhibitions {
-    margin: 2% 5%;
+    margin: 2%;
 }
-.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .text-visit  {
-    font-size: large;
+.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .text-visit, .text-get-involed, .explore-text  {
+    font-size: larger;
 }
 
 nav a {
@@ -45,9 +45,10 @@ nav a {
     color: #fff;
 }
 
-.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .explore-text {
-    font-size: larger;
+.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .text-frontpage-involved, .text-aim  {
+    font-size: x-large;
 }
+
 
 .text-exhibitions-evolutions2 {
     padding: 0% 8% 5% 5%;
@@ -62,4 +63,46 @@ nav a {
 
 .text-frontpage-involved, .text-aim {
     font-size: x-large;
+}
+
+.text-get-involed {
+    padding: 4% 0%;
+}
+
+@media (min-width: 360px) and (max-width: 852px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .h2-title {
+        font-size: 25px;
+    }
+
+    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .cosmology-ehibition-text, .explore-text-fontpage, .text-special-events {
+        font-size: large;
+    }
+
+    .hamburger-icon {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1050px) {
+    /* Header */
+
+    /* Footer */
+
+    /* Homepage */
+
+    /* Special Eevents */
+
+    /* Exhibitions */
+
+    /* Explore */
+
+    /* Get Involved */
+
+    /* Visit */
+
+    /* Cosmology */
 }

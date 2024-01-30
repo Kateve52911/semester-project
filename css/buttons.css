@@ -1,4 +1,4 @@
-.cta-frontpage-readmore, .cta-plan-visit, .cta-exhibitions-readmore-evolutions, .cta-frontpage-explore-exhibitions, .cta-frontpage-community, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology , .cta-exhibitions-readmore-cosmology, .cta-explore-contact-us{
+.cta-frontpage-readmore, .cta-plan-visit, .cta-exhibitions-readmore-evolutions, .cta-frontpage-explore-exhibitions, .cta-frontpage-community, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology , .cta-exhibitions-readmore-cosmology, .cta-explore-contact-us, .cta-get-involved{
     padding: 10px 60px;
     border-radius: 10px;
     text-decoration: none;
@@ -9,7 +9,7 @@
 
 .cta-frontpage-readmore {
     background-color: var(--colour-green);
-    margin-top: 15%;
+    margin-top: 8%;
     float: right;
 }
 
@@ -54,6 +54,13 @@
     color: black;
 }
 
+.cta-get-involved {
+    background-color: #000;
+    color: #fff;
+    margin: 22%;
+    
+}
+
 /* transitions */
 
 .cta-frontpage-readmore, .cta-ehibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-ecology{
@@ -82,4 +89,40 @@
 .cta-exhibitions-readmore-biology:active {
     color: var(--colour-orange);
     border-color: var(--colour-orange);
+}
+
+@media (min-width: 360px) and (max-width: 852px) {
+    .cta-frontpage-community {
+        padding: 10px 60px;
+        margin-left: 2%;
+    }
+
+    .footer-nav-mq {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000;
+        padding: 10px 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 853px) and (max-width: 1050px) {
+    /* Header */
+
+    /* Footer */
+
+    /* Homepage */
+
+    /* Special Eevents */
+
+    /* Exhibitions */
+
+    /* Explore */
+
+    /* Get Involved */
+
+    /* Visit */
+
+    /* Cosmology */
 }

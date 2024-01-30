@@ -1,10 +1,13 @@
 :root {
     --font-family: "Bodoni 72","Trebuchet MT", serif;
     --colour-orange: #DA7C02;
+    --colour-paleorange: #F8E5CC; 
     --colour-darkorange: #6A4310;
     --colour-green: #11A878;
-    --colour-pink: #C100E6;
+    --colour-palegreen: #CFEEE4;
     --colour-darkgreen: #306152;
+    --colour-pink: #C100E6;
+    --colour-palepink: #F3CCFA;
     --colour-purple: #652772;
     --font-family-treb: "Trebuchet MT", Areal, serif;
 
