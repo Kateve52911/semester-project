@@ -36,7 +36,7 @@ nav a {
 
 /* Footer */
 
-.container-footer, .container-sm-links {
+.container-footer {
     display: flex;
     margin-left: 5%;
     gap: 40%;
@@ -46,8 +46,9 @@ nav a {
     margin-top: 8%;
 }
 
-.container-sm-links {
-    padding-top: 4%;
+nav.container-sm-links {
+    display: inline;
+    padding: 4%;
 }
 
 nav li {
@@ -73,6 +74,7 @@ nav a.nav-footer {
 nav li.sm-links {
     display: inline;  
 }
+
 /* Containers */
 .container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved  {
     display: grid;
@@ -447,6 +449,10 @@ nav li.sm-links {
     border-radius: 10px;
 }
 
+.image-visit-2 {
+    max-width: 80%;
+}
+
 .image-visit-3 {
     max-width: 120%;
 }
@@ -455,7 +461,7 @@ nav li.sm-links {
     max-width: 40%;
 }
 
-.visit-1, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
+.visit-admission, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
     grid-column: 1;
     grid-row: 1;
     margin: 4%;
@@ -533,7 +539,7 @@ nav li.sm-links {
     }
 }
 
-@media (min-width: 853px){
+@media (min-width: 810px){
     nav {
         display: flex;
         width: 80%;
@@ -560,7 +566,7 @@ nav li.sm-links {
     }
 }
 
-@media (min-width: 360px) and (max-width: 852px) {
+@media (min-width: 360px) and (max-width: 809px) {
     /* Header */
     .flex-container-header {
         display: flex;
@@ -589,33 +595,31 @@ nav li.sm-links {
     .container-footer {
         display: flex;
         flex-direction: column;
+        margin-left: 0%;
     }
-    .logo-footer{
+
+    .logo-footer {
         max-width: 250px;
     }
 
     .footer-links {
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        grid-template-rows: repeat(2 1fr);
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+        margin-left: 10px;
     }
 
-    .footer-1, .footer-2 {
-        grid-column: 1;
-        grid-row: 1;
+    .sm-image-footer {
+        max-width: 14%;
     }
 
-    .footer-2, .footer-4 {
-        grid-row: 2;
+    nav li.sm-links {
+        display: inline;
     }
-
-    .footer-3, .footer-4 {
-        grid-column: 2;
-        grid-row: 1;
-    }
+    
 
     /* Containers */
-    .container-homepage, .container-special-events, .container-explore, .container-visit-us, .container-get-involved  {
+    .container-homepage, .container-special-events, .container-get-involved, .container-visit-us  {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4 1fr);
@@ -627,9 +631,8 @@ nav li.sm-links {
         grid-template-rows: repeat(3 1fr);
     }
 
-    .container-homepage {
+    .container-homepage, .container-visit-us {
         grid-auto-rows: max(auto);
-        margin-right: 1%;
     }
 
     .container-exhibitions {
@@ -637,6 +640,11 @@ nav li.sm-links {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5 1fr);
         gap: 30px;
+    }
+
+    .container-visit-us {
+        gap: 5px;
+        margin: 0% 4%;
     }
 
     /* Homepage */  
@@ -770,6 +778,25 @@ nav li.sm-links {
 
     /* Explore */
 
+    .container-explore {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teachers, .researchers, .kids {
+        padding: 6%;
+        margin: 4%;
+    }
+
+    .flex-container-teachers {
+        margin: 10% 0%;
+        gap: 0%;
+    }
+
+    .explore-teachers-image, .image-explore-reseacher, .image-explore-kids, .image-explore-kids-1 {
+        max-height: 120px;
+        margin-top: 5%;
+    }
     /* Get Involved */
 
     .container-get-involved {
@@ -797,6 +824,55 @@ nav li.sm-links {
 
     /* Visit */
 
+
+    .visit-admission, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        margin: 2%;
+        padding: 2%;
+    }
+
+    .visit-admission {
+        grid-row: 2;
+    }
+
+    .visit-2 {
+        grid-row: 3;
+    }
+
+    .visit-5 {
+        grid-row: 4;
+    }
+
+    .visit-8 {
+        grid-row: 5;
+    }
+
+    .visit-7{
+        grid-row: 6;
+    }
+
+    .visit-3, .visit-6, .visit-4 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+    .visit-6, .visit-10 {
+        grid-column: 2;
+    }
+
+    .visit-10, .visit-4 {
+        grid-row: 8;
+    }
+
+    .visit-9 {
+        grid-row: 9;
+    }
+
+    .visit-12 {
+        grid-row: 10;
+    }
+
     /* Cosmology */
 
     /* Animations / Transitions */
@@ -818,12 +894,17 @@ nav li.sm-links {
             width: 200px
         }
     }
-
-
 }
 
-@media (min-width: 853px) and (max-width: 1050px) {
+@media (min-width: 810px) and (max-width: 1080px) {
     /* Header */
+    .logo-header {
+        max-width: 27%;
+    }
+
+    nav a {
+        padding: 10px 0px;
+    }
 
     /* Footer */
 

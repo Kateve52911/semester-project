@@ -78,12 +78,12 @@ nav a {
         font-size: 25px;
     }
 
-    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .cosmology-ehibition-text, .explore-text-fontpage, .text-special-events {
+    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .cosmology-ehibition-text, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit {
         font-size: large;
     }
 
     .hamburger-icon {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
