@@ -91,7 +91,7 @@
     border-color: var(--colour-orange);
 }
 
-@media (min-width: 360px) and (max-width: 852px) {
+@media (min-width: 360px) and (max-width: 809px) {
     .cta-frontpage-community {
         padding: 10px 60px;
         margin-left: 2%;
@@ -111,22 +111,21 @@
     }
 }
 
-@media (min-width: 853px) and (max-width: 1050px) {
-    /* Header */
+@media (min-width: 810px) and (max-width: 1050px) {
+    .cta-frontpage-readmore, .cta-frontpage-community, .cta-plan-visit {
+        font-size: large;
+    }
 
-    /* Footer */
+    .cta-frontpage-community {
+        padding: 10px 20px;
+    }
 
-    /* Homepage */
+    .cta-plan-visit{
+        padding: 10px 40px;
+    }
 
-    /* Special Eevents */
+    .cta-frontpage-explore-exhibitions {
+        padding: 10px 30px;
+    }
 
-    /* Exhibitions */
-
-    /* Explore */
-
-    /* Get Involved */
-
-    /* Visit */
-
-    /* Cosmology */
 }

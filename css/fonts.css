@@ -69,7 +69,7 @@ nav a {
     padding: 4% 0%;
 }
 
-@media (min-width: 360px) and (max-width: 852px) {
+@media (min-width: 360px) and (max-width: 809px) {
     h1 {
         font-size: 40px;
     }
@@ -87,22 +87,16 @@ nav a {
     }
 }
 
-@media (min-width: 853px) and (max-width: 1050px) {
-    /* Header */
+@media (min-width: 810px) and (max-width: 1050px) {
+    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit {
+        font-size: large;
+    }
 
-    /* Footer */
+    .cosmology-ehibition-text {
+        font-size: medium;
+    }
 
-    /* Homepage */
-
-    /* Special Eevents */
-
-    /* Exhibitions */
-
-    /* Explore */
-
-    /* Get Involved */
-
-    /* Visit */
-
-    /* Cosmology */
+    .h2-title, .h2-title-explore-exhibitions {
+        font-size: 26px;
+    }
 }
