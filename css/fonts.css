@@ -32,7 +32,7 @@ h1 {
 .text-exhibitions {
     margin: 2%;
 }
-.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .text-visit, .text-get-involed, .explore-text  {
+.exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .text-visit {
     font-size: larger;
 }
 
@@ -45,7 +45,7 @@ nav a {
     color: #fff;
 }
 
-.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .text-frontpage-involved, .text-aim  {
+.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .text-frontpage-involved, .text-aim, .explore-text, .text-get-involed  {
     font-size: x-large;
 }
 
@@ -78,17 +78,22 @@ nav a {
         font-size: 25px;
     }
 
-    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .cosmology-ehibition-text, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit {
+    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .cosmology-ehibition-text, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit, .text-get-involed {
         font-size: large;
     }
 
     .hamburger-icon {
         font-size: 40px;
     }
+
+    .text-get-involed {
+        padding: 0%;
+        margin: 4% 0%;
+    }
 }
 
 @media (min-width: 810px) and (max-width: 1050px) {
-    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit {
+    .text-exhibitions, .text-exhibitions-evolutions2, .text-aim, .explore-text-fontpage, .text-special-events, .explore-text, .text-visit, .text-get-involed {
         font-size: large;
     }
 
@@ -98,5 +103,9 @@ nav a {
 
     .h2-title, .h2-title-explore-exhibitions {
         font-size: 26px;
+    }
+
+    .text-get-involed {
+        padding: 0%;
     }
 }

@@ -19,7 +19,7 @@
     padding: 10px 80px;
 }
 
-.cta-exhibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology, .cta-exhibitions-readmore-cosmology {
+.cta-exhibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-ecology, .cta-exhibitions-readmore-cosmology, .cta-explore-contact-us {
     background-color: var(--colour-green);
     color: #fff;
     margin: 2% auto;
@@ -109,6 +109,10 @@
         padding: 10px;
         border-radius: 10px;
     }
+
+    .cta-get-involved {
+        margin: 3% 16%;
+    }
 }
 
 @media (min-width: 810px) and (max-width: 1050px) {
@@ -120,12 +124,24 @@
         padding: 10px 20px;
     }
 
-    .cta-plan-visit{
+    .cta-plan-visit {
         padding: 10px 40px;
     }
 
     .cta-frontpage-explore-exhibitions {
         padding: 10px 30px;
+    }
+
+    .cta-exhibitions-readmore-robotics {
+        padding: 10px 60px;
+    }
+
+    .cta-explore-contact-us {
+        padding: 10px 80px;
+    }
+
+    .cta-get-involved {
+        margin: 16%;
     }
 
 }
