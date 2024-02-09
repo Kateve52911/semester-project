@@ -69,6 +69,10 @@ nav a {
     padding: 4% 0%;
 }
 
+.text-cosmology-page {
+    font-size: x-large;
+}
+
 @media (min-width: 360px) and (max-width: 809px) {
     h1 {
         font-size: 40px;
@@ -84,11 +88,16 @@ nav a {
 
     .hamburger-icon {
         font-size: 40px;
+        margin: 3%;
     }
 
     .text-get-involed {
         padding: 0%;
         margin: 4% 0%;
+    }
+
+    nav a.h-links {
+        font-size: 25px;
     }
 }
 
@@ -98,7 +107,7 @@ nav a {
     }
 
     .cosmology-ehibition-text {
-        font-size: medium;
+        font-size: large;
     }
 
     .h2-title, .h2-title-explore-exhibitions {

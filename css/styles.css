@@ -2,15 +2,14 @@
 @import "fonts.css";
 @import "buttons.css";
 @import "animations.css";
+@import "animations.css";
 
-
-/*header*/
-
+/*header and footer*/
 nav.header-links, #menu-checkbox {
     display: none;
 }
 
-#menu-checkbox:checked ~nav.header-links {
+#menu-checkbox:checked ~nav.header-links, nav a, nav a.nav-footer, nav li {
     display: block;
 }
 
@@ -23,7 +22,6 @@ nav.header-links {
 }
 
 nav a {
-    display: block;
     text-decoration: none;
     color: #000;
     font-size: larger;
@@ -31,13 +29,10 @@ nav a {
 }
 
 .logo-header {
-    max-width: 37%;
+    max-width: 43%;
 }
 
-/* Footer */
-
 .container-footer {
-    display: flex;
     margin-left: 5%;
     gap: 40%;
 }
@@ -53,12 +48,7 @@ nav.container-sm-links {
 
 nav li {
     text-decoration: none;
-    display: block;
     padding-top: 2%;
-}
-
-nav a.nav-footer {
-    display: block;
 }
 
 .logo-footer {
@@ -75,16 +65,16 @@ nav li.sm-links {
     display: inline;  
 }
 
-/* Containers */
-.container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved  {
+/* Containers & display*/
+.container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved, .container-cosmologypage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4 1fr);
-    gap: 2%;
+    gap: 40px;
     margin: 4%;
 }
 
-.container-exhibitions, .container-explore {
+.container-exhibitions, .container-explore, .container-cosmologypage {
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -94,10 +84,6 @@ nav li.sm-links {
 
 .container-explore, .container-visit-us {
     grid-auto-rows: minmax(100px, auto);
-}
-
-.container-explore{
-    gap: 20px;
 }
 
 .container-exhibitions {
@@ -112,64 +98,62 @@ nav li.sm-links {
     margin: 0%;
 }
 
+.flex-container-teachers, .flex-container-reserachers, .flex-containers-kids, .container-triple, .cosmology-exhibition, #get-involved-topdiv, .container-footer  {
+    display: flex;
+}
+
+.aeronautics, .museumnight, .energica, .exhibitions-evolutions, .exhibitions-biology, .exhibitions-ecology, .exhibitions-cosmology, .flex-container-robotics, .flex-container-cosmology, .flex-container-exhibitions, .flex-container-exhibitions-1, .flex-container-exhibitions-biology, .flex-container-robotics-1, .flex-container-robotics-2, .get-involved-fontpage, .our-mission, .teachers, .researchers, .kids {
+    display: flex;
+    flex-direction: column;
+}
+
+.cosmology-exhibition, .spacesuit-image-frontpage, .inside-image-frontpage, .moon-image-homepage, .plan-visit-image-frontpage, .inside-museum-image, .get-involved-fontpage, .our-mission, .explore-together, .exhibitions-evolutions, .exhibitions-biology, .exhibitions-robotics, .exhibitions-ecology, .exhibitions-cosmology, .image-evolutions-exhibition, .image-biology-exhibition, .image-cosmology-exhibition, .image-ecology-exhibition, .image-evolutions-2-exhibition, .image-biology-2-exhibition, .image-ecology-2-exhibition, .image-robotics-exhibition, .image-cosmology-exhibition-2, .image-robotics-2-exhibition, .aeronautics, .museumnight, .energica, .image-museumnight, .image-energica, .image-aeronautics-2, .teachers, .researchers, .kids, .explore-teachers-image, .image-explore-reseacher, .image-explore-kids, .image-explore-kids-1, .image-visit-1, .image-visit-2, .image-visit-3, .image-visit-4, .cosmos-cosmology-page, .image-cosmology-page, .image-spacesuit-cosmology  {
+    border-radius: 10px;
+}
+
 /* Homepage */
 .plan-visit {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3 1fr);
     justify-items: center;
     border-radius: 10px;
+    background-color: var(--colour-pink);
+    gap: 7%;
+    padding: 8%;
 }
 
-.container-triple {
-    display: flex;
+.container-triple, .cosmology-exhibition {
     flex-direction: column;
     gap: 4%;
     margin-left: 2%;
 }
 
 .cosmology-exhibition{
-    display: flex;
-    flex-direction: column;
     background-color: var(--colour-orange);
     padding: 5%;
-    border-radius: 10px;
+    gap: 0%;
 }
 
-.inside-image{
-    gap: 2%;
-}
-
-.plan-visit {
-    grid-template-rows: repeat(2 1fr);
-    background-color: var(--colour-pink);
-    gap: 7%;
-    padding: 5%;
-}
-
-.frontpage-one {
+.frontpage-one, .frontpage-two, .frontpage-three {
     grid-column: 1;
     grid-row: 1 / 2;
 }
 
 .frontpage-two {
-    grid-column: 1;
     grid-row: 2;
 }
 
 .frontpage-three {
-    grid-column: 1;
     grid-row: 3;
 }
 
-.frontpage-four {
+.frontpage-four, .frontpage-five {
     grid-column: 2;
     grid-row: 1 ;
 }
 
 .frontpage-five {
     grid-column: 3;
-    grid-row: 1;
 }
 
 .frontpage-six {
@@ -179,7 +163,6 @@ nav li.sm-links {
 
 .spacesuit-image-frontpage, .inside-image-frontpage, .moon-image-homepage, .plan-visit-image-frontpage, .inside-museum-image{
     max-width: 100%;
-    border-radius: 10px;
 }
 
 .inside-image-frontpage {
@@ -212,11 +195,8 @@ nav li.sm-links {
 }
 
 .get-involved-fontpage, .our-mission {
-    display: flex;
-    flex-direction: column;
     background-color: var(--colour-green);
     padding: 10%;
-    border-radius: 10px;
     gap: 10%;
 }
 
@@ -225,7 +205,6 @@ nav li.sm-links {
 }
 
 #get-involved-topdiv {
-    display: flex;
     gap: 5%;
     align-items: center;
 }
@@ -233,34 +212,28 @@ nav li.sm-links {
 .explore-together{
     background-color: var(--colour-pink);
     padding: 2%;
-    border-radius: 10px;
 }
 
-/* Exhibitions */
 
+
+/* Exhibitions */
 .exhibitions-evolutions, .exhibitions-biology, .exhibitions-robotics, .exhibitions-ecology, .exhibitions-cosmology{
     border-style: solid;
-    border-radius: 10px;
     border-color: var(--colour-green);
     padding: 3%;
 }
 
 .exhibitions-biology {
     border-color: var(--colour-orange);
+    gap: 18px;
 }
 
 .exhibitions-robotics, .exhibitions-cosmology {
     border-color: var(--colour-pink);
 }
 
-
-.exhibitions-evolutions, .exhibitions-biology, .exhibitions-ecology, .exhibitions-cosmology {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-container-robotics, .flex-container-cosmology {
-    display: flex;
+.flex-container-robotics, .flex-container-cosmology, .flex-container-exhibitions, .flex-container-exhibitions-1, .flex-container-exhibitions-biology, .flex-container-robotics-1 {
+    flex-direction: row;
     margin: 2%;
 }
 
@@ -269,7 +242,6 @@ nav li.sm-links {
 }
 
 .flex-container-exhibitions, .flex-container-exhibitions-1, .flex-container-exhibitions-biology, .flex-container-robotics-1, .flex-container-robotics-2 {
-    display: flex;
     gap: 2%;
     margin: 2% 5%;
 }
@@ -287,14 +259,12 @@ nav li.sm-links {
 }
 
 .flex-container-exhibitions-1, .flex-container-robotics-2 {
-    flex-direction: column;
     margin: auto;
     padding: 5%;
 } 
 
 .image-evolutions-exhibition, .image-biology-exhibition, .image-cosmology-exhibition, .image-ecology-exhibition {
     max-width: 80%;
-    border-radius: 10px;
     margin: 0% auto;
 }
 
@@ -304,7 +274,6 @@ nav li.sm-links {
 
 .image-evolutions-2-exhibition, .image-biology-2-exhibition, .image-ecology-2-exhibition, .image-robotics-exhibition, .image-cosmology-exhibition-2 {
     max-width: 35%;
-    border-radius: 10px;
     margin: auto;
 }
 
@@ -320,7 +289,6 @@ nav li.sm-links {
 
 .image-robotics-2-exhibition {
     max-width: 80%;
-    border-radius: 10px;
     margin: auto;
 }
 
@@ -353,14 +321,9 @@ nav li.sm-links {
     grid-row: 3 / 4;
 }
 
-
 /* Special Events*/
-
 .aeronautics, .museumnight, .energica {
-    display: flex;
-    flex-direction: column;
     background-color: var(--colour-green);
-    border-radius: 10px;
     padding: 10%;
 }
 
@@ -389,22 +352,14 @@ nav li.sm-links {
     border-radius: 60%;
 }
 
-.image-museumnight, .image-energica, .image-aeronautics-2 {
-    border-radius: 10px;
-}
-
 .image-aeronautics-2 {
     max-width: 100%;
     align-items: center;
 }
 
 /* Explore */
-
 .teachers, .researchers, .kids {
-    display: flex;
-    flex-direction: column;
     background-color: var(--colour-pink);
-    border-radius: 10px;
     padding: 12%;
     margin: 2% auto;
 }
@@ -419,7 +374,6 @@ nav li.sm-links {
 
 .explore-teachers-image, .image-explore-reseacher, .image-explore-kids, .image-explore-kids-1 {
     max-width: 35%;
-    border-radius: 10px;
 }
 
 .image-explore-kids-1 {
@@ -429,7 +383,6 @@ nav li.sm-links {
 }
 
 .flex-container-teachers, .flex-container-reserachers, .flex-containers-kids {
-    display: flex;
     gap: 4%;
 }
 
@@ -437,13 +390,12 @@ nav li.sm-links {
     margin-bottom: 20px;
 }
 
-.explore-one {
+.explore-one, .explore-two {
     grid-column: 1;
     grid-row: 1;
 }
 
 .explore-two {
-    grid-column: 1;
     grid-row: 2;
 }
 
@@ -453,10 +405,9 @@ nav li.sm-links {
 }
 
 /* Visit */
-
 .image-visit-1, .image-visit-2, .image-visit-3, .image-visit-4 {
     max-width: 60%;
-    border-radius: 10px;
+    margin-top: 40px;
 }
 
 .image-visit-2 {
@@ -464,7 +415,7 @@ nav li.sm-links {
 }
 
 .image-visit-3 {
-    max-width: 120%;
+    max-width: 100%;
 }
 
 .image-visit-4 {
@@ -502,6 +453,10 @@ nav li.sm-links {
     padding-right: 15%;
 }
 
+.visit-4 {
+    margin-right: 1rem;
+}
+
 /* Get involed */
 .support, .internships, .volunteer {
     background-color: var(--colour-orange);
@@ -516,6 +471,7 @@ nav li.sm-links {
 .volunteer {
     background-color: var(--colour-pink);
 }
+
 .involved-1 {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
@@ -530,24 +486,28 @@ nav li.sm-links {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
 }
-/* Animations / Transitions*/
 
-.evolution-animation {
-    animation-duration: 5s;
-    animation-name: slidein;
+/* Cosmology */
+.cosmos-cosmology-page {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: var(--colour-pink);
+    padding: 7%;
 }
 
-@keyframes slidein {
-    0% {
-      margin-left: 0%;
-      width: 300%;
-    }
-  
-    100% {
-      margin-left: 10%;
-      width: 100%;
-    }
+.image-cosmology-page, .image-spacesuit-cosmology {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 64%;
+    margin-top: 3%;
 }
+
+.image-spacesuit-cosmology {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
 
 @media (min-width: 810px){
     nav {
@@ -567,7 +527,7 @@ nav li.sm-links {
         display: flex;
         justify-content: space-evenly;
         padding-left: 12%; 
-        padding-top: 5%;
+        padding-top: 7%;
     }
 
     .flex-container-header {
@@ -577,6 +537,41 @@ nav li.sm-links {
 }
 
 @media (min-width: 360px) and (max-width: 809px) {
+    /* Containers */
+    .container-homepage, .container-special-events, .container-get-involved, .container-visit-us  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4 1fr);
+        gap: 30px;
+        margin: 4%;
+    }
+
+    .container-special-events {
+        grid-template-rows: repeat(3 1fr);
+    }
+
+    .container-homepage, .container-visit-us {
+        grid-auto-rows: max(auto);
+    }
+
+    .container-exhibitions {
+        gap: 30px;
+    }
+
+    .container-visit-us {
+        gap: 5px;
+        margin: 0% 4%;
+    }
+
+    .container-get-involved {
+        justify-content: center;
+    }
+
+    .container-get-involved, .support, .internships, .volunteer, .container-explore, .container-special-events, .container-exhibitions, .container-footer, .footer-links  {
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Header */
     .flex-container-header {
         display: flex;
@@ -602,10 +597,9 @@ nav li.sm-links {
     .logo-header {
         max-width: 50%;
     }
+
     /* Footer */
     .container-footer {
-        display: flex;
-        flex-direction: column;
         margin-left: 0%;
     }
 
@@ -614,8 +608,6 @@ nav li.sm-links {
     }
 
     .footer-links {
-        display: flex;
-        flex-direction: column;
         margin-right: 60px;
         margin-left: 10px;
     }
@@ -631,40 +623,6 @@ nav li.sm-links {
     nav li.sm-links {
         display: inline;
     }
-    
-
-    /* Containers */
-    .container-homepage, .container-special-events, .container-get-involved, .container-visit-us  {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4 1fr);
-        gap: 30px;
-        margin: 4%;
-    }
-
-    .container-special-events {
-        grid-template-rows: repeat(3 1fr);
-    }
-
-    .container-homepage, .container-visit-us {
-        grid-auto-rows: max(auto);
-    }
-
-    .container-exhibitions {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5 1fr);
-        gap: 30px;
-    }
-
-    .container-visit-us {
-        gap: 5px;
-        margin: 0% 4%;
-    }
-
-    .container-get-involved {
-        justify-content: center;
-    }
 
     /* Homepage */  
     .container-triple {
@@ -676,39 +634,29 @@ nav li.sm-links {
         padding: 10%;
     }
 
-    .frontpage-one {
+    .frontpage-one, .frontpage-two, .frontpage-three, .frontpage-four, .frontpage-five, .frontpage-six {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
     
     .frontpage-two {
-        grid-column: 1 / 3;
         grid-row: 7;
     }
     
     .frontpage-three {
-        grid-column: 1 / 3;
         grid-row: 6;
     }
     
     .frontpage-four {
-        grid-column: 1 / 3;
         grid-row: 1 / 2;
     }
     
     .frontpage-five {
-        grid-column: 1/ 3;
         grid-row: 5;
     }
     
     .frontpage-six {
-        grid-column: 1 / 3;
         grid-row: 8;
-    }
-    
-    .spacesuit-image-frontpage, .inside-image-frontpage, .moon-image-homepage, .plan-visit-image-frontpage, .inside-museim-image {
-        max-width: 100%;
-        border-radius: 10px;
     }
     
     .inside-image-frontpage {
@@ -716,91 +664,29 @@ nav li.sm-links {
         margin-left: 6%;
     }
     
-    .testtube-image-frontpage{
-        max-width: 50%;
-        border-radius: 100px;
-    }
-    
-    .exhibition-cosmology-circle, .explore-exhibitions-frontpage {
-        background-color: var(--colour-purple);
-        border-radius: 150px;
-        max-width: 50%;
-        padding: 10%;
-        margin-left: 14%;
-    }
-    
-    .explore-exhibitions-frontpage {
-        border-radius: 200px;
-    }
-    
     .explore-exhibitions-frontpage{
-        background-color: var(--colour-green);
-        max-width: 50%;
-        padding: 20%;
         margin-left: 10px;
     }
 
-    /* Special Eevents */
+    .our-mission {
+        gap: 4%;
+    }
 
+    /* Special Eevents */
     .aeronautics, .museumnight, .energica {
         border-radius: 10px;
         padding: 50px;
-        width: 80%;
-    }
-
-    .specialevents-one {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .specialevents-two {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    
-    .specialevents-three {
-        grid-column: 1;
-        grid-row: 3;
+        width: 70%;
+        margin: 3% 2%;
     }
 
     /* Exhibitions */
-    .exhibtions-one {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .exhibtions-two {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    
-    .exhibtions-three {
-        grid-column: 1;
-        grid-row: 3;
-    }
-    
-    .exhibtions-four {
-        grid-column: 1;
-        grid-row: 4;
-    }
-    
-    .exhibtions-five {
-        grid-column: 1;
-        grid-row: 5;
-    }
-
     .flex-container-robotics, .flex-container-robotics-1 {
         flex-direction: column;
         max-width: 100%;
     }
 
     /* Explore */
-
-    .container-explore {
-        display: flex;
-        flex-direction: column;
-    }
-
     .teachers, .researchers, .kids {
         padding: 6%;
         margin: 4%;
@@ -815,19 +701,12 @@ nav li.sm-links {
         max-height: 120px;
         margin-top: 5%;
     }
+
     /* Get Involved */
-
-    .container-get-involved {
-        display: flex;
-        flex-direction: column;
-    }
-
     .support, .internships, .volunteer {
         padding: 10px;
         border-radius: 50%;
-        margin: 3%;
-        display: flex;
-        flex-direction: column;
+        margin: 0%;
     }
 
     .support {
@@ -839,17 +718,15 @@ nav li.sm-links {
     }
 
     .volunteer {
-        background-color: var(--colour-palepink);
+        background-color: var(--colour-pale-pink);
     }
 
     /* Visit */
-
-
+    
     .visit-admission, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
         grid-column: 1 / 3;
         grid-row: 1;
-        margin: 2%;
-        padding: 2%;
+        margin: 2% 10%; 
     }
 
     .visit-admission {
@@ -893,27 +770,21 @@ nav li.sm-links {
         grid-row: 10;
     }
 
+    .image-visit-2 {
+        margin: 0% 10%;
+    }
+
+    .image-visit-1 {
+        max-width: 80%;
+        margin-top: 100px;
+    }
+
+    .image-visit-4 {
+        max-width: 70%;
+    }
+
     /* Cosmology */
 
-    /* Animations / Transitions */
-
-    nav.header-links {
-        animation-duration: 0.3s;
-        animation-name: slide-in;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes slide-in {
-        0% {
-            margin-left: 100%;
-            width: 0px
-        }
-
-        100% {
-            margin-left: 50%;
-            width: 200px
-        }
-    }
 }
 
 @media (min-width: 810px) and (max-width: 1080px) {
@@ -955,12 +826,16 @@ nav li.sm-links {
     }
 
     /* Homepage */
-    .container-triple {
+    .container-homepage {
         gap: 30px;
     }
 
+    .container-triple {
+        gap: 40px;
+    }
+
     .explore-together {
-        padding: 25px;
+        padding: 15px;
     }
 
     .inside-image-frontpage {
@@ -971,7 +846,10 @@ nav li.sm-links {
         margin-left: 10%;
     }
 
-    /* Special Eevents */
+    .exhibition-cosmology-circle {
+        max-width: 70%;
+        margin-left: 4%;
+    }
 
     /* Exhibitions */
     .exhibitions-biology {
@@ -996,12 +874,10 @@ nav li.sm-links {
         margin-bottom: 10%;
     }
 
-
     /* Explore */
     .flex-container-teachers{
         gap: 25px;
     }
-
 
     .explore-teachers-image, .image-explore-reseacher, .image-explore-kids {
         height: 120px;
@@ -1010,8 +886,32 @@ nav li.sm-links {
     }
 
     /* Get Involved */
+    .volunteer, .internships, .support {
+        padding: 90px;
+    }
 
     /* Visit */
+    .container-visit-us {
+        gap: 10px;
+    }
+
+    .image-visit-1, .image-visit-2, .image-visit-3, .image-visit-4 {
+        margin-top: 60px;
+        max-width: 90%;
+    }
+    
+    .image-visit-3 {
+        max-width: 140%;
+    }
+    
+    .image-visit-4 {
+        max-width: 50%;
+        margin-top: 30px;
+    }
+    
+    .visit-4 {
+        margin-right: 30%;
+    }
 
     /* Cosmology */
 }

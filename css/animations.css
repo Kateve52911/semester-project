@@ -1,0 +1,58 @@
+/* Animations / Transitions*/
+.evolution-animation {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+.header-animation {
+  animation-duration: 5s;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 809px) {
+  /* Animations / Transitions */
+
+  nav.header-links {
+    animation-duration: 0.3s;
+    animation-name: slide-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        margin-left: 100%;
+        width: 0px
+    }
+
+    100% {
+        margin-left: 50%;
+        width: 200px
+    }
+}
+}
