@@ -25,7 +25,7 @@ nav a {
     text-decoration: none;
     color: #000;
     font-size: larger;
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .logo-header {
@@ -54,7 +54,6 @@ nav li {
 .logo-footer {
     max-width: 300px;
 }
-
 .sm-image-footer {
     max-width: 14%;
     margin-left: 2%;
@@ -84,6 +83,10 @@ nav li.sm-links {
 
 .container-explore, .container-visit-us {
     grid-auto-rows: minmax(100px, auto);
+}
+
+.container-cosmologypage {
+    margin-left: 9%;
 }
 
 .container-exhibitions {
@@ -319,6 +322,7 @@ nav li.sm-links {
 .exhibtions-five {
     grid-column: 2;
     grid-row: 3 / 4;
+    gap: 55px;
 }
 
 /* Special Events*/
@@ -493,21 +497,34 @@ nav li.sm-links {
     grid-row: 1;
     background-color: var(--colour-pink);
     padding: 7%;
+    margin: 2% 5%;
 }
 
 .image-cosmology-page, .image-spacesuit-cosmology {
     grid-column: 2;
     grid-row: 1;
-    max-width: 64%;
+    max-width: 80%;
     margin-top: 3%;
 }
 
 .image-spacesuit-cosmology {
     grid-column: 1;
     grid-row: 2;
+    margin-top: 50px;
 }
 
+.circular-text-cosmology-page {
+    background-color: var(--colour-orange);
+    border-radius: 300px;
+    max-width: 250px;
+    padding: 15%;
+    grid-row: 2;
+    grid-column: 2;
+}
 
+.circular-text-cosmology-page, .image-spacesuit-cosmology, .image-cosmology-page, .cosmos-cosmology-page {
+    justify-self: center;
+}
 
 @media (min-width: 810px){
     nav {
@@ -567,9 +584,14 @@ nav li.sm-links {
         justify-content: center;
     }
 
-    .container-get-involved, .support, .internships, .volunteer, .container-explore, .container-special-events, .container-exhibitions, .container-footer, .footer-links  {
+    .container-get-involved, .support, .internships, .volunteer, .container-explore, .container-special-events, .container-exhibitions, .container-footer, .footer-links, .container-cosmologypage  {
         display: flex;
         flex-direction: column;
+    }
+
+    .container-cosmologypage {
+        align-items: center;
+        margin: 2%;
     }
 
     /* Header */
@@ -870,10 +892,6 @@ nav li.sm-links {
         margin-bottom: 30%;
     }
 
-    .image-cosmology-exhibition {
-        margin-bottom: 10%;
-    }
-
     /* Explore */
     .flex-container-teachers{
         gap: 25px;
@@ -914,4 +932,16 @@ nav li.sm-links {
     }
 
     /* Cosmology */
+    .image-cosmology-page, .image-spacesuit-cosmology {
+        max-width: 100%;
+    }
+
+    .circular-text-cosmology-page {
+        max-width: 200px;
+        padding: 20% 15%;
+    }
+
+    .cosmos-cosmology-page {
+        margin: 2% 0%;
+    }
 }

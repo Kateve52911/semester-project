@@ -63,7 +63,7 @@
 
 /* transitions */
 
-.cta-frontpage-readmore, .cta-ehibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-ecology{
+.cta-frontpage-readmore, .cta-ehibitions-readmore-evolutions, .cta-exhibitions-readmore-biology, .cta-exhibitions-readmore-ecology, .cta-frontpage-explore-exhibitions, .cta-exhibitions-readmore-robotics, .cta-exhibitions-readmore-cosmology, .cta-frontpage-community {
     transition-property: background-colour;
 }
 
@@ -73,6 +73,16 @@
 
 .cta-exhibitions-readmore-biology:hover {
     background-color: var(--colour-darkorange);
+}
+
+.cta-frontpage-explore-exhibitions:hover, .cta-exhibitions-readmore-robotics:hover, .cta-exhibitions-readmore-cosmology:hover {
+    background-color: var(--colour-purple);
+}
+
+.cta-frontpage-community:hover  {
+    background-color: #fff;
+    border-color: var(--colour-pink);
+    color: var(--colour-pink);
 }
 
 .cta-frontpage-readmore:active, .cta-exhibitions-readmore-evolutions:active, .cta-exhibitions-readmore-biology:active, .cta-exhibitions-readmore-ecology:active {
@@ -100,14 +110,6 @@
     .cta-explore-contact-us {
         padding: 10px 40px;
         margin-left: 20%;
-    }
-
-    .footer-nav-mq {
-        border-style: solid;
-        border-width: 1px;
-        border-color: #000;
-        padding: 10px;
-        border-radius: 10px;
     }
 
     .cta-get-involved {

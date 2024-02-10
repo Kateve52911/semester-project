@@ -18,20 +18,16 @@
 
 .header-animation {
   animation-duration: 5s;
-  animation-name: bounce;
+  animation-name: slide-in-header;
 }
 
-@keyframes bounce {
+@keyframes slide-in-header {
   0% {
-    height: 0%;
-  }
-
-  50% {
-    height: 100%;
+    width: 80%; 
   }
 
   100% {
-    height: 0%;
+    width: 100%;
   }
 }
 

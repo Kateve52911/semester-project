@@ -41,24 +41,31 @@ nav a {
     font-size: large;
 }
 
+nav a.h-links:active {
+    background-color: var(--colour-palegreen);
+}
+
 #get-involved-topdiv, .get-involved-fontpage, .cta-frontpage-readmore, .text-aim {
     color: #fff;
 }
 
-.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .text-frontpage-involved, .text-aim, .explore-text, .text-get-involed  {
+.explore-text-fontpage, .cosmology-ehibition-text, .text-exhibitions, .text-special-events, .text-exhibitions-evolutions2, .text-frontpage-involved, .text-aim, .explore-text, .text-get-involed, .circular-text-cosmology-page  {
     font-size: x-large;
 }
-
 
 .text-exhibitions-evolutions2 {
     padding: 0% 8% 5% 5%;
 
 }
 
-.cosmology-ehibition-text {
+.cosmology-ehibition-text, .circular-text-cosmology-page {
     color: #fff;
     text-align: center;
     padding-top: 10%;
+}
+
+.circular-text-cosmology-page {
+    padding-top: 0%;
 }
 
 .text-frontpage-involved, .text-aim {
@@ -71,6 +78,10 @@ nav a {
 
 .text-cosmology-page {
     font-size: x-large;
+}
+
+.cosmology-text {
+    padding-top: 10%;
 }
 
 @media (min-width: 360px) and (max-width: 809px) {
@@ -87,8 +98,9 @@ nav a {
     }
 
     .hamburger-icon {
-        font-size: 40px;
+        font-size: 45px;
         margin: 3%;
+        color: var(--colour-purple);
     }
 
     .text-get-involed {
@@ -106,7 +118,7 @@ nav a {
         font-size: large;
     }
 
-    .cosmology-ehibition-text {
+    .cosmology-ehibition-text, .text-cosmology-page, .circular-text-cosmology-page  {
         font-size: large;
     }
 
