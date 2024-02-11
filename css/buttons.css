@@ -75,7 +75,7 @@
 }
 
 .colour-arrow:hover {
-    color: var(--colour-pink);
+    color: var(--colour-purple);
 }
 
 .cta-exhibitions-readmore-biology:hover {
@@ -140,7 +140,7 @@
 
     .cta-explore-contact-us {
         padding: 10px 40px;
-        margin-left: 20%;
+        margin-left: 15%;
     }
 
     .cta-get-involved {
@@ -151,6 +151,14 @@
 
     .cta-frontpage-readmore {
         padding: 10px 30px;
+    }
+
+    .cta-plan-visit, .cta-frontpage-community {
+        padding: 10px 45px;
+    }
+
+    .cta-exhibitions-readmore-robotics {
+        padding: 10px 80px;
     }
 }
 
