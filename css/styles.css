@@ -729,7 +729,6 @@ nav li.sm-links {
 
     /* Special Eevents */
     .aeronautics, .museumnight, .energica {
-        border-radius: 10px;
         padding: 50px;
         width: 70%;
         margin: 3% 2%;

@@ -74,6 +74,10 @@
     color: #fff;
 }
 
+.colour-arrow:hover {
+    color: var(--colour-pink);
+}
+
 .cta-exhibitions-readmore-biology:hover {
     background-color: var(--colour-dark-orange);
 }
@@ -86,9 +90,11 @@
     background-color: #fff;
     border-color: var(--colour-pink);
     color: var(--colour-pink);
+    border-style: solid;
 }
 
 .cta-get-involved:hover {
+    border-style: solid;
     border-color: #000;
     color: #000;
 }
