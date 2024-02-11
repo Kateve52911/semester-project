@@ -67,22 +67,22 @@ nav li.sm-links {
 /* Containers & display*/
 .container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved, .container-cosmologypage {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: repeat(4 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 40px;
     margin: 4%;
 }
 
 .container-exhibitions, .container-explore, .container-cosmologypage {
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .container-explore, .container-get-involved{
-    grid-template-rows: repeat(5 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .container-explore, .container-visit-us {
-    grid-auto-rows: minmax(100px auto);
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .container-cosmologypage {
@@ -564,17 +564,17 @@ nav li.sm-links {
 }
 
 @media (min-width: 350px) and (max-width: 815px) {
-    /* Containers */
+    /* Containers, displays and common settings*/
     .container-homepage, .container-special-events, .container-get-involved, .container-visit-us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4 1fr);
+        grid-template-rows: repeat(4, 1fr);
         gap: 30px;
         margin: 4%;
     }
 
     .container-special-events {
-        grid-template-rows: repeat(3 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .container-homepage, .container-visit-us  {
@@ -604,6 +604,10 @@ nav li.sm-links {
         margin: 2%;
     }
 
+    .image-evolutions-exhibition, .spacesuit-image-frontpage, .inside-museum-image{
+        z-index: 1;
+    }
+
     /* Header */
     .flex-container-header {
         display: flex;
@@ -618,6 +622,7 @@ nav li.sm-links {
         padding: 10%;
         height: 100vh;
         padding-top: 20%;
+        z-index: 2;
     }
 
     nav a.h-links {
