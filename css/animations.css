@@ -1,34 +1,11 @@
-/* Animations / Transitions*/
-.evolution-animation {
-  animation-duration: 5s;
-  animation-name: slidein;
+/* Animations / Transitions */
+
+.image-evolutions-exhibition {
+  transition: transform 6s ease;
 }
 
-@keyframes slidein {
-  0% {
-    margin-left: 0%;
-    width: 300%;
-  }
-
-  100% {
-    margin-left: 10%;
-    width: 100%;
-  }
-}
-
-.header-animation {
-  animation-duration: 5s;
-  animation-name: slide-in-header;
-}
-
-@keyframes slide-in-header {
-  0% {
-    width: 80%; 
-  }
-
-  100% {
-    width: 100%;
-  }
+.image-evolutions-exhibition:hover {
+  transform: translateX(-20%) translateY(-20%);
 }
 
 @media (min-width: 360px) and (max-width: 809px) {

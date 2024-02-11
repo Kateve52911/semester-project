@@ -1,7 +1,7 @@
 
 h1 {
-    font-size: 56px;
-    font-family: var(--font-family);
+    font-size: 50px;
+    font-family: var(--font-family-treb);
     text-align: center;
     padding-bottom: 3%;
 }
@@ -40,13 +40,13 @@ h1 {
     font-size: larger;
 }
 
+.header-shadow {
+    text-shadow: -3px 3px var(--colour-pale-purple);
+}
+
 nav a {
     font-family: var(--font-family-treb);
     font-size: large;
-}
-
-nav a.h-links:active {
-    background-color: var(--colour-palegreen);
 }
 
 #get-involved-topdiv, .get-involved-fontpage, .cta-frontpage-readmore, .text-aim {
@@ -110,10 +110,6 @@ nav a.h-links:active {
     .text-get-involed {
         padding: 0%;
         margin: 4% 0%;
-    }
-
-    nav a.h-links {
-        font-size: 25px;
     }
 }
 
