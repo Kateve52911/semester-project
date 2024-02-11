@@ -62,7 +62,7 @@ nav li.sm-links {
 }
 
 /* Containers & display*/
-.container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved, .container-cosmologypage {
+.container-homepage, .container-exhibitions, .container-special-events, .container-explore, .container-visit-us, .container-get-involved, .container-cosmology-page {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
@@ -70,7 +70,7 @@ nav li.sm-links {
     margin: 4%;
 }
 
-.container-exhibitions, .container-explore, .container-cosmologypage {
+.container-exhibitions, .container-explore, .container-cosmology-page {
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -82,7 +82,7 @@ nav li.sm-links {
     grid-auto-rows: minmax(100px, auto);
 }
 
-.container-cosmologypage {
+.container-cosmology-page {
     margin-left: 9%;
 }
 
@@ -103,7 +103,7 @@ nav li.sm-links {
     display: flex;
 }
 
-.aeronautics, .museumnight, .energica, .exhibitions-evolutions, .exhibitions-biology, .exhibitions-ecology, .exhibitions-cosmology, .flex-container-robotics, .flex-container-cosmology, .flex-container-exhibitions, .flex-container-exhibitions-1, .flex-container-exhibitions-biology, .flex-container-robotics-1, .flex-container-robotics-2, .get-involved-fontpage, .our-mission, .teachers, .researchers, .kids, .inside-museum-explore {
+.aeronautics, .museum-night, .energica, .exhibitions-evolutions, .exhibitions-biology, .exhibitions-ecology, .exhibitions-cosmology, .flex-container-robotics, .flex-container-cosmology, .flex-container-exhibitions, .flex-container-exhibitions-1, .flex-container-exhibitions-biology, .flex-container-robotics-1, .flex-container-robotics-2, .get-involved-fontpage, .our-mission, .teachers, .researchers, .kids, .inside-museum-explore {
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +127,7 @@ nav li.sm-links {
     filter: drop-shadow(0 0 5px var(--colour-purple));
 }
 
-.aeronautics, .museumnight, .energica, .plan-visit, .cosmology-exhibition, .explore-exhibitions-frontpage, .our-mission, .get-involved-fontpage, .explore-together, .teachers, .researchers, .kids {
+.aeronautics, .museum-night, .energica, .plan-visit, .cosmology-exhibition, .explore-exhibitions-frontpage, .our-mission, .get-involved-fontpage, .explore-together, .teachers, .researchers, .kids {
     filter: drop-shadow(-10px 10px black);
 }
 
@@ -320,43 +320,43 @@ nav li.sm-links {
     margin: auto;
 }
 
-.exhibtions-one, .exhibtions-two, .exhibtions-three, .exhibtions-four, .exhibtions-five {
+.exhibitions-one, .exhibitions-two, .exhibitions-three, .exhibitions-four, .exhibitions-five {
     justify-content: center;
 }
 
-.exhibtions-one {
+.exhibitions-one {
     grid-column: 1;
     grid-row: 1 / 2;
 }
 
-.exhibtions-two {
+.exhibitions-two {
     grid-column: 2;
     grid-row: 1 / 2;
 }
 
-.exhibtions-three {
+.exhibitions-three {
     grid-column: 1 / 3;
     grid-row: 2;
 }
 
-.exhibtions-four {
+.exhibitions-four {
     grid-column: 1;
     grid-row: 3 / 4;
 }
 
-.exhibtions-five {
+.exhibitions-five {
     grid-column: 2;
     grid-row: 3 / 4;
     gap: 55px;
 }
 
 /* Special Events*/
-.aeronautics, .museumnight, .energica {
+.aeronautics, .museum-night, .energica {
     background-color: var(--colour-green);
     padding: 10%;
 }
 
-.museumnight {
+.museum-night {
     background-color: var(--colour-orange);
 }
 
@@ -364,19 +364,19 @@ nav li.sm-links {
     background-color: var(--colour-pink);
 }
 
-.specialevents-one {
+.special-events-one {
     grid-column: 1;
 }
 
-.specialevents-two {
+.special-events-two {
     grid-column: 2;
 }
 
-.specialevents-three {
+.special-events-three {
     grid-column: 3;
 }
 
-.image-aeronautics, .image-museumnight, .image-energica {
+.image-aeronautics, .image-museum-night, .image-energica {
     max-width: 100%;
     border-radius: 60%;
 }
@@ -451,38 +451,38 @@ nav li.sm-links {
     max-width: 40%;
 }
 
-.visit-admission, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
+.visit-admission, .visit-hours, .visit-container-3-image, .visit-container-4-image, .visit-container-5-image, .visit-shop,  .visit-food-drink, .visit-accessibility, .visit-contact-us, .visit-container-10-image, .visit-location, .visit-email {
     grid-column: 1;
     grid-row: 1;
     margin: 4%;
     padding: 2%;
 }
 
-.visit-2, .visit-5, .visit-8, .visit-11 {
+.visit-hours, .visit-container-5-image, .visit-accessibility, .visit-location {
     grid-column: 2;
 }
 
-.visit-3, .visit-6, .visit-9, .visit-12 {
+.visit-container-3-image, .visit-shop, .visit-contact-us, .visit-email {
     grid-column: 3;
 }
 
-.visit-4, .visit-5, .visit-6 {
+.visit-container-4-image, .visit-container-5-image, .visit-shop {
     grid-row: 2;
 }
 
-.visit-7, .visit-8, .visit-9 {
+.visit-food-drink, .visit-accessibility, .visit-contact-us {
     grid-row: 3;
 }
 
-.visit-10, .visit-11, .visit-12 {
+.visit-container-10-image, .visit-location, .visit-email {
     grid-row: 4;
 }
 
-.visit-6 {
+.visit-shop {
     padding-right: 15%;
 }
 
-.visit-4 {
+.visit-container-4-image {
     margin-right: 1rem;
 }
 
@@ -615,12 +615,12 @@ nav li.sm-links {
         justify-content: center;
     }
 
-    .container-get-involved, .support, .internships, .volunteer, .container-explore, .container-special-events, .container-exhibitions, .container-footer, .footer-links, .container-cosmologypage  {
+    .container-get-involved, .support, .internships, .volunteer, .container-explore, .container-special-events, .container-exhibitions, .container-footer, .footer-links, .container-cosmology-page  {
         display: flex;
         flex-direction: column;
     }
 
-    .container-cosmologypage {
+    .container-cosmology-page {
         align-items: center;
         margin: 2%;
     }
@@ -728,7 +728,7 @@ nav li.sm-links {
     }
 
     /* Special Eevents */
-    .aeronautics, .museumnight, .energica {
+    .aeronautics, .museum-night, .energica {
         padding: 50px;
         width: 70%;
         margin: 3% 2%;
@@ -776,7 +776,7 @@ nav li.sm-links {
     }
 
     /* Visit */
-    .visit-admission, .visit-2, .visit-3,.visit-4, .visit-5, .visit-6,  .visit-7, .visit-8, .visit-9, .visit-10, .visit-11, .visit-12 {
+    .visit-admission, .visit-hours, .visit-container-3-image, .visit-container-4-image, .visit-container-5-image, .visit-shop,  .visit-food-drink, .visit-accessibility, .visit-contact-us, .visit-container-10-image, .visit-location, .visit-email {
         grid-column: 1 / 3;
         grid-row: 1;
         margin: 2% 10%; 
@@ -786,40 +786,40 @@ nav li.sm-links {
         grid-row: 2;
     }
 
-    .visit-2 {
+    .visit-hours {
         grid-row: 3;
     }
 
-    .visit-5 {
+    .visit-container-5-image {
         grid-row: 4;
     }
 
-    .visit-8 {
+    .visit-accessibility {
         grid-row: 5;
     }
 
-    .visit-7{
+    .visit-food-drink{
         grid-row: 6;
     }
 
-    .visit-3, .visit-6, .visit-4 {
+    .visit-container-3-image, .visit-shop, .visit-container-4-image{
         grid-column: 1;
         grid-row: 7;
     }
 
-    .visit-6, .visit-10 {
+    .visit-shop, .visit-container-10-image {
         grid-column: 2;
     }
 
-    .visit-10, .visit-4 {
+    .visit-container-10-image, .visit-container-4-image {
         grid-row: 8;
     }
 
-    .visit-9 {
+    .visit-contact-us {
         grid-row: 9;
     }
 
-    .visit-12 {
+    .visit-email {
         grid-row: 10;
     }
 
@@ -958,7 +958,7 @@ nav li.sm-links {
         margin-top: 30px;
     }
     
-    .visit-4 {
+    .visit-container-4-image {
         margin-right: 30%;
     }
 
