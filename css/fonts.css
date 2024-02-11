@@ -41,7 +41,7 @@ h1 {
 }
 
 .header-shadow {
-    text-shadow: -3px 3px var(--colour-pale-purple);
+    text-shadow: -2px 2px var(--colour-pale-purple);
 }
 
 nav a {
