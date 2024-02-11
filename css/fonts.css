@@ -6,11 +6,11 @@ h1 {
     padding-bottom: 3%;
 }
 
-.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2, .h4-title, .text-visit, .text-get-involed, .explore-text, .text-exhibitions-robotics  {
+.h2-title, .text-exhibitions, p, .exhibition-sky, .info-text-homepage, .get-involved-fontpage, #get-involved-topdiv, .cta-frontpage-readmore, .cosmology-ehibition-text, .text-exhibitions-evolutions2, .h4-title, .text-visit, .text-get-involed, .explore-text, .text-exhibitions-robotics, .h2-title-exlpore  {
     font-family: var(--font-family);
 }
 
-.h2-title, .h2-title-special {
+.h2-title, .h2-title-special, .h2-title-exlpore {
     font-size: 36px;
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 .header-shadow {
-    text-shadow: -2px 2px var(--colour-pale-purple);
+    text-shadow: -3px 3px var(--colour-pale-purple);
 }
 
 nav a {
@@ -49,7 +49,7 @@ nav a {
     font-size: large;
 }
 
-#get-involved-topdiv, .get-involved-fontpage, .cta-frontpage-readmore, .text-aim {
+#get-involved-topdiv, .get-involved-fontpage, .cta-frontpage-readmore, .text-aim, .h2-title-exlpore, .explore-text-fontpage {
     color: #fff;
 }
 
