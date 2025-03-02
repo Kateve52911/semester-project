@@ -1,4 +1,4 @@
-# Your project title
+# Community Science Museum
 
 ![image](https://github.com/Kateve52911/javascript1-assignment/blob/main/images/Gamehub-screenshot.png)
 
@@ -42,7 +42,7 @@ In order to contribute, create a PR in this repo. Add @Kateve52911 as a reviewer
 
 ## Contact
 
-[My portfolio website](kathrinesportfolio.netlify.app)
+[My portfolio website](www.kathrinesportfolio.netlify.app)
 
 [My LinkedIn page](www.linkedin.com/in/kathrine-mellem-evensen-6855b612b)
 
