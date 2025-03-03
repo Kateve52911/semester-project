@@ -1,0 +1,70 @@
+/*header and footer*/
+nav.header-links,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav.header-links,
+nav a,
+nav nav li {
+  display: block;
+}
+
+header {
+  position: relative;
+}
+
+nav.header-links {
+  position: absolute;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.logo-header {
+  max-width: 50%;
+}
+
+nav li {
+  text-decoration: none;
+  padding-top: 2%;
+}
+
+.logo-footer {
+  max-width: 300px;
+}
+
+.sm-image-footer {
+  max-width: 40px;
+}
+
+.footer-links {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  white-space: nowrap;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colour-green);
+  padding: 5%;
+}
+
+.links-container-footer-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav-footer {
+  display: block;
+}

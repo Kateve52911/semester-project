@@ -1,0 +1,130 @@
+.image-visit-1,
+.image-visit-2,
+.image-visit-3,
+.image-visit-4 {
+  max-width: 60%;
+  margin-top: 40px;
+}
+
+.image-visit-2 {
+  max-width: 80%;
+}
+
+.image-visit-3 {
+  max-width: 100%;
+}
+
+.image-visit-4 {
+  max-width: 40%;
+}
+
+.spacesuit-image-frontpage,
+.inside-image-frontpage,
+.inside-museum-image,
+.inside-image-frontpage,
+.image-visit-1,
+.image-visit-2,
+.image-visit-4,
+.image-cosmology-page,
+.image-spacesuit-cosmology {
+  filter: drop-shadow(-10px 10px 10px grey);
+}
+
+.image-evolutions-exhibition,
+.image-biology-exhibition,
+.image-cosmology-exhibition,
+.image-ecology-exhibition,
+.image-ecology-exhibition,
+.image-evolutions-2-exhibition,
+.image-biology-2-exhibition,
+.image-ecology-2-exhibition,
+.image-robotics-exhibition,
+.image-cosmology-exhibition-2,
+.image-robotics-2-exhibition {
+  filter: drop-shadow(-10px 10px 10px grey);
+}
+
+.spacesuit-image-frontpage,
+.inside-image-frontpage,
+.moon-image-homepage,
+.plan-visit-image-frontpage,
+.inside-museum-image {
+  max-width: 100%;
+}
+
+.inside-image-frontpage {
+  max-width: 80%;
+  margin-left: 5%;
+}
+
+.testtube-image-frontpage {
+  max-width: 50%;
+  border-radius: 100px;
+}
+
+.image-evolutions-exhibition,
+.image-biology-exhibition,
+.image-cosmology-exhibition,
+.image-ecology-exhibition {
+  max-width: 80%;
+  margin: 0% auto;
+}
+
+.image-ecology-exhibition,
+.image-cosmology-exhibition {
+  margin-left: 10%;
+}
+
+.image-evolutions-2-exhibition,
+.image-biology-2-exhibition,
+.image-ecology-2-exhibition,
+.image-robotics-exhibition,
+.image-cosmology-exhibition-2 {
+  max-width: 35%;
+  margin: auto;
+}
+
+.image-ecology-2-exhibition {
+  max-width: 75%;
+  margin-left: 12%;
+  margin-bottom: 4%;
+}
+
+.image-robotics-exhibition {
+  max-width: 50%;
+}
+
+.image-robotics-2-exhibition {
+  max-width: 80%;
+  margin: auto;
+}
+
+.image-aeronautics,
+.image-museum-night,
+.image-energica {
+  max-width: 100%;
+  border-radius: 60%;
+}
+
+.image-aeronautics-2 {
+  max-width: 100%;
+  align-items: center;
+}
+
+.explore-teachers-image,
+.image-explore-reseacher,
+.image-explore-kids,
+.image-explore-kids-1 {
+  max-width: 35%;
+}
+
+.image-explore-kids-1 {
+  max-width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.image-spacesuit-cosmology,
+.image-cosmology-page {
+  justify-self: center;
+}
