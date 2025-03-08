@@ -8,9 +8,21 @@
   transition: transform 6s ease;
 }
 
-/* .spacesuit-image-frontpage {
-  
-} */
+.image-evolutions-2-exhibition {
+  transition: transition 2s ease;
+}
+
+.image-evolutions-2-exhibition:hover {
+  transform: translateX(42px);
+}
+
+.spacesuit-image-frontpage {
+  transition: transform 3s ease-in-out;
+}
+
+.spacesuit-image-frontpage:hover {
+  transform: rotateY(3.142rad);
+}
 
 .image-biology-exhibition:hover,
 .image-cosmology-exhibition:hover {

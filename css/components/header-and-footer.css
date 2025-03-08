@@ -88,7 +88,7 @@ nav-footer {
   }
 
   nav.header-links {
-    margin-top: 12%;
+    margin-top: 14%;
     margin-left: 5%;
     background-color: var(--colour-purple);
     padding: 10%;
@@ -99,7 +99,7 @@ nav-footer {
 
   nav a.h-links {
     display: block;
-    margin-bottom: 40%;
+    margin-bottom: 20%;
     color: #fff;
   }
 
