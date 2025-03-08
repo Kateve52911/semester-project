@@ -1,10 +1,25 @@
 /* Animations / Transitions */
 
-.image-evolutions-exhibition {
+.image-evolutions-exhibition,
+.image-robotics-exhibition,
+.image-biology-exhibition,
+.image-cosmology-exhibition,
+.image-ecology-exhibition {
   transition: transform 6s ease;
 }
 
-.image-evolutions-exhibition:hover {
+/* .spacesuit-image-frontpage {
+  
+} */
+
+.image-biology-exhibition:hover,
+.image-cosmology-exhibition:hover {
+  transform: translateX(20%) translateY(-20%);
+}
+
+.image-evolutions-exhibition:hover,
+.image-robotics-exhibition:hover,
+.image-ecology-exhibition:hover {
   transform: translateX(-20%) translateY(-20%);
 }
 
@@ -15,17 +30,17 @@
     animation-duration: 0.3s;
     animation-name: slide-in;
     animation-fill-mode: forwards;
-}
+  }
 
-@keyframes slide-in {
+  @keyframes slide-in {
     0% {
-        margin-left: 100%;
-        width: 0px
+      margin-left: 100%;
+      width: 0px;
     }
 
     100% {
-        margin-left: 50%;
-        width: 200px
+      margin-left: 50%;
+      width: 200px;
     }
-}
+  }
 }
