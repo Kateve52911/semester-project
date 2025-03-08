@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![image] (/images/CSM-fontpage-image.png)
+![image]
 
 I set out to create a web page for a community science museum using HTML and CSS. It is meant to be enganing for children while at the same time informative for parents and caregivers of the children.
 
