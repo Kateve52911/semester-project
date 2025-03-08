@@ -16,11 +16,17 @@
   transform: translateX(42px);
 }
 
-.spacesuit-image-frontpage {
+.spacesuit-image-frontpage,
+.plan-visit-image-frontpage,
+.inside-museum-image,
+.moon-image-homepage {
   transition: transform 3s ease-in-out;
 }
 
-.spacesuit-image-frontpage:hover {
+.spacesuit-image-frontpage:hover,
+.plan-visit-image-frontpage:hover,
+.inside-museum-image:hover,
+.moon-image-homepage:hover {
   transform: rotateY(3.142rad);
 }
 
