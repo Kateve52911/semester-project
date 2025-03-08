@@ -115,12 +115,6 @@ footer {
 
 /* Special effects */
 
-.active {
-  color: var(--colour-purple);
-  filter: drop-shadow(0 0 5px var(--colour-purple));
-  font-weight: 900;
-}
-
 .aeronautics,
 .museum-night,
 .energica,

@@ -69,6 +69,16 @@ nav-footer {
   display: block;
 }
 
+.active {
+  color: var(--colour-orange);
+  font-weight: 900;
+}
+.h-links:hover {
+  color: var(--colour-green);
+  filter: drop-shadow(0 0 5px var(--colour-green));
+  font-weight: 900;
+}
+
 @media (min-width: 350px) and (max-width: 815px) {
   /* Header */
   .flex-container-header {
