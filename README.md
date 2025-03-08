@@ -43,9 +43,9 @@ In order to contribute, create a PR in this repo. Add @Kateve52911 as a reviewer
 
 ## Contact
 
-[My portfolio website](www.kathrinesportfolio.netlify.app)
+[My portfolio website](https://www.kathrinesportfolio.netlify.app)
 
-[My LinkedIn page](www.linkedin.com/in/kathrine-mellem-evensen-6855b612b)
+[My LinkedIn page](https://www.linkedin.com/in/kathrine-mellem-evensen-6855b612b)
 
 ## Acknowledgments
 
